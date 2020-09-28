@@ -165,7 +165,6 @@ public class Main {
         return coord;
     }
 
-
     static void drawField(char[][] field) {
         for (int i = 0; i < field.length; i++) {
             for (int j = 0; j < field.length; j++) {
@@ -174,5 +173,6 @@ public class Main {
             System.out.println();
         }
     }
+
 
 }
